@@ -1,0 +1,35 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Residuos";
+}
+
+<div class="demo-section wide">
+    @(Html.Kendo().Chart<ResCliCore.Entities.DataInputDto>()
+        .Name("chart")
+        .Title("Residuos vs fecha")
+        .Legend(legend => legend
+            .Position(ChartLegendPosition.Top)
+        )
+        .DataSource(ds => ds.Read(read => read.Action("Graficaresiduos", "Residuos")))
+        .Series(series => {
+            series.Line(model => model.Cantidad_residuo).Name("Bogota").CategoryField("Date_generacion");
+            series.Line(model => model.Cantidad_residuo).Name("Medellin").CategoryField("Date_generacion");
+            //series.Line(model => model.Wind).Name("Wind").CategoryField("Year");
+        })
+        .CategoryAxis(axis => axis
+            .Labels(labels => labels.Rotation(-90))
+            .Crosshair(c => c.Visible(true))
+        )
+        .ValueAxis(axis => axis.Numeric()
+            .Labels(labels => labels.Format("{0:N0}"))
+            .MajorUnit(10000)
+        )
+        .Tooltip(tooltip => tooltip
+            .Visible(true)
+            .Shared(true)
+            .Format("{0:N0}")
+        )
+    )
+</div>

@@ -9,6 +9,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ResCliCore.Common;
+using ResCliCore.Common.Interface;
 
 namespace ResCliCore
 {
@@ -32,6 +34,8 @@ namespace ResCliCore
 				.AddNewtonsoftJson(options => options.SerializerSettings.ContractResolver = new DefaultContractResolver());
 			// Add Kendo UI services to the services container
 			services.AddKendo();
+
+            services.AddScoped<IManejoResiduosServiceInt, ManejoResiduosService>();
 
         }
 

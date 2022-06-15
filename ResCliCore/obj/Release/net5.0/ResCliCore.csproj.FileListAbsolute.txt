@@ -348,3 +348,4 @@ C:\Users\Sisitemas\source\repos\jcdd1\ResiduosClienteCore\ResCliCore\obj\Release
 C:\Users\Sisitemas\source\repos\jcdd1\ResiduosClienteCore\ResCliCore\obj\Release\net5.0\ref\ResCliCore.dll
 C:\Users\Sisitemas\source\repos\jcdd1\ResiduosClienteCore\ResCliCore\obj\Release\net5.0\ResCliCore.pdb
 C:\Users\Sisitemas\source\repos\jcdd1\ResiduosClienteCore\ResCliCore\obj\Release\net5.0\ResCliCore.genruntimeconfig.cache
+C:\Users\Sisitemas\source\repos\jcdd1\ResiduosClienteCore\ResCliCore\obj\Release\net5.0\Razor\Views\Residuos\Index.cshtml.g.cs
