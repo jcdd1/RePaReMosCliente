@@ -15,7 +15,7 @@
         .DataSource(ds => ds.Read(read => read.Action("Graficaresiduos", "Residuos")))
         .Series(series => {
             series.Line(model => model.Cantidad_residuo).Name("Bogota").CategoryField("Date_generacion");
-            series.Line(model => model.Cantidad_residuo).Name("Medellin").CategoryField("Date_generacion");
+            //series.Line(model => model.Cantidad_residuo).Name("Medellin").CategoryField("Date_generacion");
             //series.Line(model => model.Wind).Name("Wind").CategoryField("Year");
         })
         .CategoryAxis(axis => axis
