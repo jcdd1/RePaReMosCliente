@@ -1,27 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sisitemas\\source\\repos\\jcdd1\\ResiduosClienteCore\\ResCliCore\\ResCliCore.csproj": {}
+    "C:\\Users\\Usuario\\Documents\\IS\\RePaReMosCliente\\ResCliCore\\ResCliCore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sisitemas\\source\\repos\\jcdd1\\ResiduosClienteCore\\ResCliCore\\ResCliCore.csproj": {
+    "C:\\Users\\Usuario\\Documents\\IS\\RePaReMosCliente\\ResCliCore\\ResCliCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sisitemas\\source\\repos\\jcdd1\\ResiduosClienteCore\\ResCliCore\\ResCliCore.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Documents\\IS\\RePaReMosCliente\\ResCliCore\\ResCliCore.csproj",
         "projectName": "ResCliCore",
-        "projectPath": "C:\\Users\\Sisitemas\\source\\repos\\jcdd1\\ResiduosClienteCore\\ResCliCore\\ResCliCore.csproj",
-        "packagesPath": "C:\\Users\\Sisitemas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sisitemas\\source\\repos\\jcdd1\\ResiduosClienteCore\\ResCliCore\\obj\\",
+        "projectPath": "C:\\Users\\Usuario\\Documents\\IS\\RePaReMosCliente\\ResCliCore\\ResCliCore.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\Documents\\IS\\RePaReMosCliente\\ResCliCore\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Sisitemas\\source\\repos\\jcdd1\\ResiduosClienteCore\\NuGet.Config",
-          "C:\\Users\\Sisitemas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuario\\Documents\\IS\\RePaReMosCliente\\NuGet.Config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://nuget.telerik.com/nuget": {}
         },
@@ -56,10 +62,29 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -68,7 +93,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.212\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }
